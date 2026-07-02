@@ -1,6 +1,35 @@
 # mercado-central-ai-agent
 
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
+![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green)
+![Estado](https://img.shields.io/badge/Estado-Activo-brightgreen)
+
 Asistente conversacional con enfoque **RAG (Retrieval-Augmented Generation)** para consultar documentos del **Mercado Central**, construido con **LangChain**, **ChromaDB**, **OpenAI** y **Streamlit**.
+
+---
+
+## 🧠 Arquitectura
+
+```mermaid
+flowchart TD
+    A[Usuario] --> B[Interfaz Streamlit\nsrc/app.py]
+    B --> C[Orquestación RAG\nLangChain]
+    C --> D[Vector Store\nChromaDB]
+    C --> E[LLM y Embeddings\nOpenAI API]
+    F[Documentos fuente\nPDF / Excel] --> G[Ingesta\nsrc/ingestion.py]
+    G --> D
+    D --> C
+    C --> B
+```
+
+### Flujo general
+
+1. Se cargan documentos (PDF/Excel) y se procesan con `src/ingestion.py`.
+2. Los textos se fragmentan y se indexan en **ChromaDB**.
+3. El usuario pregunta desde la app en **Streamlit**.
+4. El pipeline **RAG** recupera contexto relevante desde ChromaDB.
+5. Se construye el prompt y se consulta el modelo de **OpenAI**.
+6. La respuesta se muestra en la interfaz, idealmente con citas/fuentes.
 
 ---
 
