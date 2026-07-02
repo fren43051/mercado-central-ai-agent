@@ -141,51 +141,67 @@ Documentación: [OCI Container Instances](https://docs.oracle.com/en-us/iaas/con
 
 ## 🖼️ Capturas de pantalla y demo
 
-En esta sección se compartirán imágenes y videos de la aplicación ya desplegada para mostrar su funcionamiento en un entorno real.
-
 ### 📸 Capturas de pantalla
 
-> Aquí puedes agregar las capturas de la aplicación en producción o en entorno de pruebas.
+> Reemplaza estos archivos por las imágenes reales de la aplicación ya desplegada.
 
-- **Vista principal de la aplicación**
-- **Ejemplo de respuesta del agente**
-- **Resultados con fuentes/citas**
-- **Interfaz de carga o consulta de documentos**
+<p align="center">
+  <img src="ruta/a/imagen-1.png" alt="Captura 1" width="800" />
+</p>
+
+<p align="center">
+  <img src="ruta/a/imagen-2.png" alt="Captura 2" width="800" />
+</p>
+
+<p align="center">
+  <img src="ruta/a/imagen-3.png" alt="Captura 3" width="800" />
+</p>
+
+<p align="center">
+  <img src="ruta/a/imagen-4.png" alt="Captura 4" width="800" />
+</p>
 
 ### 🎥 Video demo
 
-> Puedes incrustar un video grabado de la aplicación funcionando.
+> Puedes usar un video embebido, una miniatura enlazada o un simple enlace externo.
 
-Si tienes un video subido a YouTube, Loom o Drive, puedes agregarlo aquí:
+#### Opción 1: miniatura enlazada
 
-```html
 <p align="center">
   <a href="URL_DEL_VIDEO" target="_blank">
-    Ver demo en video de la aplicación
+    <img src="ruta/a/miniatura-del-video.png" alt="Ver demo en video" width="800" />
   </a>
 </p>
-```
 
-O, si prefieres, puedes insertar una imagen/miniatura enlazada al video.
+#### Opción 2: iframe para video embebido
+
+<p align="center">
+  <iframe width="800" height="450" src="URL_EMBED_DEL_VIDEO" title="Demo del proyecto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+> Si tu plataforma no renderiza `iframe` en Markdown, usa la miniatura enlazada o un enlace directo.
 
 ---
 
 ## 💬 Ejemplos de preguntas al agente
 
-A continuación se muestran algunos ejemplos de preguntas que se le pueden hacer al asistente conversacional:
+### Preguntas generales
 
 - ¿Cuáles son los horarios de atención del Mercado Central?
-- ¿Qué productos se venden con mayor frecuencia?
-- ¿Qué documentos contiene la base de conocimiento?
-- ¿Qué requisitos existen para trabajar o vender en el mercado?
 - ¿Cómo puedo llegar al Mercado Central?
+- ¿Qué requisitos existen para trabajar o vender en el mercado?
+- ¿Qué productos se venden con mayor frecuencia?
 - ¿Qué información hay sobre proveedores o locales?
-- ¿Cuáles son las normas o recomendaciones para los visitantes?
-- ¿Puedes resumirme la información más importante sobre este documento?
+
+### Preguntas sobre documentos
+
+- ¿Qué documentos contiene la base de conocimiento?
+- ¿Puedes resumirme la información más importante de este documento?
 - ¿Qué datos relevantes encuentras sobre precios o productos?
+- ¿Cuáles son las normas o recomendaciones para los visitantes?
 - ¿Qué fuentes utilizaste para responder esta consulta?
 
-> Puedes ir agregando más ejemplos según crezca la base documental del agente.
+> Puedes agregar más ejemplos conforme crezca la base documental del agente.
 
 ---
 
