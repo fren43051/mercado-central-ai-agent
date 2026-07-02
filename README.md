@@ -139,6 +139,56 @@ Documentación: [OCI Container Instances](https://docs.oracle.com/en-us/iaas/con
 
 ---
 
+## 🖼️ Capturas de pantalla y demo
+
+En esta sección se compartirán imágenes y videos de la aplicación ya desplegada para mostrar su funcionamiento en un entorno real.
+
+### 📸 Capturas de pantalla
+
+> Aquí puedes agregar las capturas de la aplicación en producción o en entorno de pruebas.
+
+- **Vista principal de la aplicación**
+- **Ejemplo de respuesta del agente**
+- **Resultados con fuentes/citas**
+- **Interfaz de carga o consulta de documentos**
+
+### 🎥 Video demo
+
+> Puedes incrustar un video grabado de la aplicación funcionando.
+
+Si tienes un video subido a YouTube, Loom o Drive, puedes agregarlo aquí:
+
+```html
+<p align="center">
+  <a href="URL_DEL_VIDEO" target="_blank">
+    Ver demo en video de la aplicación
+  </a>
+</p>
+```
+
+O, si prefieres, puedes insertar una imagen/miniatura enlazada al video.
+
+---
+
+## 💬 Ejemplos de preguntas al agente
+
+A continuación se muestran algunos ejemplos de preguntas que se le pueden hacer al asistente conversacional:
+
+- ¿Cuáles son los horarios de atención del Mercado Central?
+- ¿Qué productos se venden con mayor frecuencia?
+- ¿Qué documentos contiene la base de conocimiento?
+- ¿Qué requisitos existen para trabajar o vender en el mercado?
+- ¿Cómo puedo llegar al Mercado Central?
+- ¿Qué información hay sobre proveedores o locales?
+- ¿Cuáles son las normas o recomendaciones para los visitantes?
+- ¿Puedes resumirme la información más importante sobre este documento?
+- ¿Qué datos relevantes encuentras sobre precios o productos?
+- ¿Qué fuentes utilizaste para responder esta consulta?
+
+> Puedes ir agregando más ejemplos según crezca la base documental del agente.
+
+---
+
 ## 📊 Convención de commits
 
 El proyecto usa [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/):
